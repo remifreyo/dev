@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommender System Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Recommender System Guide</h1>
+<!-- Explanation of the process -->
+<div id="explanation">
+  <h2>Understanding the Recommender System</h2>
+  <p>This guide demonstrates a basic recommender system using user interactions with items. Here's a breakdown:</p>
+    <!-- User Interactions table -->
+    <h2>User Interactions</h2>
+    <!-- User Interaction explanation -->
+    <div class="explanation-section">
+   <p> The table illustrates the interactions between users and items. Each row represents a user, and each column represents an item. The values are binary, where 1 indicates interaction, and 0 indicates no interaction.</p>
+    <table id="interactionsTable">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Item 1</th>
+                <th>Item 2</th>
+                <th>Item 3</th>
+                <th>Item 4</th>
+                <th>Item 5</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <!-- User Similarity table -->
+    <h2>User Similarity</h2>
+         <!-- User Similarity explanation -->
+         <div class="explanation-section">
+          <p>The table shows the similarity between users. A value closer to 1 indicates higher similarity. A higher similarity score suggests that these users have similar interaction patterns with items.</p>
+      </div>
+    <table id="similarityTable">
+        <thead>
+            <tr>
+                <th>Users</th>
+                <th>User 0</th>
+                <th>User 1</th>
+                <th>User 2</th>
+                <th>User 3</th>
+                <th>User 4</th>
+                <th>User 5</th>
+                <th>User 6</th>
+                <th>User 7</th>
+                <th>User 8</th>
+                <th>User 9</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <!-- Recommendations table -->
+    <h2>Recommendations</h2>
+     <!-- Recommendations explanation -->
+     <div class="explanation-section">
+      <p>The table displays recommended items for each user. These recommendations are generated based on user similarity and interactions. The recommendation scores indicate the strength of the recommendation. Higher scores imply a more confident recommendation.</p>
+  </div>
+ <table id="recommendationsTable">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Recommended Items</th>
+            <th>Recommendation Scores</th> <!-- Add this line -->
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+        <!-- Code explanation -->
+        <div class="explanation-section">
+            <h3>Code Overview</h3>
+            <p>The JavaScript code calculates user similarity and recommends items based on interactions. View the script.js file for the detailed implementation.</p>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>

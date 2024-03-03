@@ -1,0 +1,47 @@
+/* Your provided CSS styles */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Styling for tables */
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+}
+
+#explanation {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.explanation-section {
+  margin-bottom: 20px;
+}
+
+/* Responsive styling */
+@media only screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+}
